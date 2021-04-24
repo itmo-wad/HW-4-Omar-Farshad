@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Welcome to My Gallery</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row{
+	width:900px;
+	align:center;
+	margin: auto;
+  padding: auto;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+	background-color: #66FFCC;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body>
+
+<h1 style="text-align:center;">Welcome to My Image Gallery</h1>
+<div  style="text-align:center; margin: auto;"><a href="http://127.0.0.1:5000/">Logout</a></div>   
+
+
+<div class="row">
+  <div class="column">
+    <img src="static/images/img-1.jpg" alt="Snow" onclick="window.open(this.src)" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/images/img-2.jpg" alt="Forest" onclick="window.open(this.src)" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/images/img-3.jpg" alt="Mountains"onclick="window.open(this.src)" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/images/img-4.jpg" alt="Mountains" onclick="window.open(this.src)" style="width:100%">
+  </div>
+   <div class="column">
+    <img src="static/images/img-5.jpg" alt="Mountains" onclick="window.open(this.src)" style="width:100%">
+  </div>
+   <div class="column">
+    <img src="static/images/img-6.jpg" alt="Mountains" onclick="window.open(this.src)" style="width:100%">
+  </div>
+   <div class="column">
+    <img src="static/images/img-7.jpg" alt="Mountains" onclick="window.open(this.src)" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/images/img-8.jpg" alt="Mountains" onclick="window.open(this.src)" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/images/img-9.jpg" alt="Mountains" onclick="window.open(this.src)" style="width:100%">
+  </div>
+</div>
+
+
+</body>
+</html>
