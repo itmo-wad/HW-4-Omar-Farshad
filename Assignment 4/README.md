@@ -21,6 +21,8 @@ You are allowed to use only Python programming language and Flask framework
 You are allowed to use only MongoDB as database
 
 <br>
+
 <h2>Optimal part</h>
+<br>
 Add registration function to append new users on http://localhost:5000/register/
 You can keep usernames/passwords only in MongoDB
